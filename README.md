@@ -54,3 +54,4 @@ The name of the custom element is `keyper-web`. For information about including 
 | environment     | string (optional) | develop \| staging \| sandbox \| production (default)                                                              |
 | language        | string (optional) | Language of the user (defaults to `navigator.language` or `de`)                                                    |
 | verificationUrl | string (optional) | parameters of the verification url (e.g. on ticket offer), e.g. `/verifications/offers_gift_existing_user/{token}` |
+| component       | string (optional) | component that should be loaded; can be "notification" \| "container" (default)                                    |
