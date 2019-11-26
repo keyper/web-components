@@ -47,11 +47,12 @@ The name of the custom element is `keyper-web`. For information about including 
 
 ### Attributes
 
-| Name            | Type              | Value                                                                                                              |
-| --------------- | ----------------- | ------------------------------------------------------------------------------------------------------------------ |
-| appSecret       | string (required) | App secret obtained by keyper Business Webapp, e.g. `100001_a1b2c3`                                                |
-| ssoToken        | string (required) | Token of the signed in user in your SSO (e.g. JWT)                                                                 |
-| environment     | string (optional) | develop \| staging \| sandbox \| production (default)                                                              |
-| language        | string (optional) | Language of the user (defaults to `navigator.language` or `de`)                                                    |
-| verificationUrl | string (optional) | parameters of the verification url (e.g. on ticket offer), e.g. `/verifications/offers_gift_existing_user/{token}` |
-| component       | string (optional) | component that should be loaded; can be "notification" \| "container" (default)                                    |
+| Name             | Type              | Value                                                                           |
+| ---------------- | ----------------- | ------------------------------------------------------------------------------- |
+| appSecret        | string (required) | App secret obtained by keyper Business Webapp, e.g. `100001_a1b2c3`             |
+| ssoToken         | string (required) | Token of the signed in user in your SSO (e.g. JWT)                              |
+| environment      | string (optional) | develop \| staging \| sandbox \| production (default)                           |
+| language         | string (optional) | Language of the user (defaults to `navigator.language` or `de`)                 |
+| verificationType | string (optional) | verification type of the offer URL, e.g. `offers_gift_existing_user`            |
+| verificationCode | string (optional) | verification code of the offer URL, e.g. `AB11C3DE-4567-8F90-12AB-AB34C56D789E` |
+| component        | string (optional) | component that should be loaded; can be "notification" \| "container" (default) |
