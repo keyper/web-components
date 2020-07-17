@@ -9,13 +9,13 @@ keyper Web components are custom elements and use the shadow DOM.
 ## Getting started
 
 First you have to incluce the web component into your html page.
-To do so, load the component from `https://sandbox.keyper.app/keyper-web.js` (Sandbox Environment).
+To do so, load the component from `https://sandbox.keyper.app/keyper-web.js` (Sandbox Environment) or `https://production.keyper.app/keyper-web.js` (Production Environment).
 
 ```
 <html>
   <head>
     ...
-    <script type="text/javascript" src="URL">
+    <script type="text/javascript" src="https://production.keyper.app/keyper-web.js">
   </head>
   <body>
   ...
@@ -33,7 +33,7 @@ The name of the custom element is `keyper-web`. For information about including 
 <html>
   <head>
     ...
-    <script type="text/javascript" src="URL">
+    <script type="text/javascript" src="https://production.keyper.app/keyper-web.js">
   </head>
   <body>
     <keyper-web
